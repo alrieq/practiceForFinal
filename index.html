@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to this image api </h1>
+    <header>
+        <input id="albumIdField" value="Jfni3" type="text" placeholder="Enter any imgur's album id">
+        <button onclick=requestAlbumXHR()>View Images (XHR)</button>
+        <button onclick=requestAlbumFetch()>View Images (Fetch)</button>
+        <button onclick=requestAlbumAsyncAwait()>View Images (Async/Await)</button>
+    </header>
+    <div id="result">
+
+    </div>
+    <input type="button" value="Apply 20% Discount" onclick="handleClick()">
+    <h2>External Storage</h2>
+    <ul id="products">
+        <li>
+            <span>External HDD 1TB: $</span>
+            <span>49.99</span>
+            <span>30.99</span>
+            <span></span>
+        </li>
+        <li>
+            <span>External HDD 2TB: $</span>
+            <span>89.99</span>
+            <span>30.99</span>
+            <span></span>
+        </li>
+        <li>
+            <span>External SSD GB512: $</span>
+            <span>59.99</span>
+            <span>30.99</span>
+            <span></span>
+        </li>
+    </ul>
+    <div>
+        <a href="#">Link #1, in the div.</a>
+        <a href="#">Link #2, in the div.</a>
+        <p>p in the div.
+            <a href="#">Link #3, in the p that's in the div.</a>
+        </p>
+        <a href="#">Link #4, in the div.</a>
+      </div>
+      <a href="#">Link #5 not in the div at all.</a>
+    <script src="script.js"></script>
+</body>
+</html>
